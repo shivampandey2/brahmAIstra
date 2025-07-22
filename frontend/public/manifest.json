@@ -1,0 +1,47 @@
+{
+  "short_name": "BrahmAIstra",
+  "name": "BrahmAIstra - AI Hackathon Platform",
+  "description": "Innovation Starts, Where Hesitation Ends! Ultimate AI hackathon platform.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["developer", "productivity", "education"],
+  "shortcuts": [
+    {
+      "name": "Submit Prompt",
+      "short_name": "Submit",
+      "description": "Submit a new AI prompt",
+      "url": "/submit",
+      "icons": [{ "src": "/icon-submit.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Leaderboard",
+      "short_name": "Rankings",
+      "description": "View the current leaderboard",
+      "url": "/leaderboard",
+      "icons": [{ "src": "/icon-leaderboard.png", "sizes": "96x96" }]
+    }
+  ]
+}
