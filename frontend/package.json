@@ -1,0 +1,69 @@
+{
+  "name": "brahmastra-frontend",
+  "version": "1.0.0",
+  "description": "BrahmAIstra Hackathon Platform - Frontend",
+  "private": true,
+  "author": "Shivam Pandey <shivampandey@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://brahmastra-hackathon.vercel.app",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "dompurify": "^3.0.7",
+    "lucide-react": "^0.263.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:production": "REACT_APP_API_URL=$REACT_APP_API_URL npm run build",
+    "analyze": "npm run build && npx source-map-explorer 'build/static/js/*.js'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-console": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "hackathon",
+    "ai",
+    "brahmastra",
+    "react",
+    "frontend",
+    "innovation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shivam-pandey/brahmastra-hackathon.git",
+    "directory": "frontend"
+  },
+  "bugs": {
+    "url": "https://github.com/shivam-pandey/brahmastra-hackathon/issues"
+  }
+}
